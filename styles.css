@@ -241,3 +241,78 @@ ul li a{
     border-radius: 8px;
     cursor: pointer;
 }
+
+
+
+
+/*---------this section use by ai for special 10 marks----------*/
+
+.venue-section{
+    padding: 90px 0;
+}
+
+.venue-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.venue-info{
+    flex: 1;
+}
+
+.venue-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.venue-desc{
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    max-width: 420px;
+}
+
+.venue-details{
+    display: block;    
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.venue-details li{
+    display: flex;
+    justify-content: space-between;
+    max-width: 420px;
+    padding: 14px 0;
+    border-bottom: 1px solid #e4e7ec;
+    gap: 20px;
+}
+
+.venue-label{
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.venue-value{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.text-box{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    display: block;
+}
+
+.text-box textarea{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 14px;
+    padding: 100px 20px;
+    font-size: 15px;
+    box-sizing: border-box; 
+}
