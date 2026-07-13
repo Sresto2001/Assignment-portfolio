@@ -128,8 +128,8 @@ ul li a{
 }
 
 .speaker-card{
-    border: 1px solid #eef0f3;
-    border-radius: 14px;
+    border: 1px solid #45566e;
+    border-radius: 40px;
     overflow: hidden;
 }
 
@@ -144,7 +144,7 @@ ul li a{
     display: block;
     font-size: 12px;
     font-weight: 700;
-    color: #3b5bfd;
+    color: #000000;
     margin: 20px 0 0 20px;
 }
 
@@ -157,4 +157,87 @@ ul li a{
     font-size: 14px;
     color: #6b7280;
     margin: 0 0 20px 20px;
+}
+
+
+/*---------pricing section css----------*/
+
+.pricing-section{
+    text-align: center;
+    padding: 90px 0;
+    background-color: #f7f8fa;
+}
+
+.pricing-title{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.pricing-subtitle{
+    color: #6b7280;
+    margin: 10px 0 48px 0;
+}
+
+.pricing-flex{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.price-card{
+    background-color: white;
+    border: 1px solid #e4e7ec;
+    border-radius: 14px;
+    padding: 28px;
+    width: 300px;
+    text-align: left;
+}
+
+.price-card-dark{
+    background-color: #14161a;
+    color: white;
+}
+
+.price-tag{
+    font-size: 12px;
+    font-weight: 700;
+    color: #6b7280;
+}
+
+.price-amount{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.price-period{
+    color: #6b7280;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.price-card hr{
+    border: none;
+    border-top: 1px solid #0a3174;
+}
+
+.price-features{
+    display: block;
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.price-features li{
+    font-size: 10px 0;
+    font-size: 14px;
+}
+
+.btn-outline{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: rgb(252, 252, 252);
+    border: 1.5px solid #dbdedf;
+    border-radius: 8px;
+    cursor: pointer;
 }
